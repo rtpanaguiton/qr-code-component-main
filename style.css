@@ -1,0 +1,39 @@
+
+body {
+    background-color: rgb(214, 226, 240);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img {
+    width : auto;
+    padding: 10px;
+    border-radius : 20px;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: lightgray;
+}
+
+@media screen and (min-width: 375px) {
+    .card {
+        width: 370px;
+        margin: auto;
+    }
+  }
+  
